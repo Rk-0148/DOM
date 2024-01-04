@@ -3,8 +3,8 @@ html {
   width: 100%;
 }
 
+/**
 nav ul {
-  background-color: black;
   display: flex;
   list-style-type: none;
   gap: 20px;
@@ -13,4 +13,4 @@ nav ul {
 
 nav>ul li a{
   color: white;
-} 
+} **/
