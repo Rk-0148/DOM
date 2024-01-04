@@ -74,3 +74,4 @@ document.querySelector(".this").style.background = "yellow";
 console.log(document.getElementsByTagName("a"));
 console.log(document.querySelector(".card").getElementsByTagName("a"));
 console.log(document.getElementsByName("search"));
+

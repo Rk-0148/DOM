@@ -3,6 +3,14 @@ html {
   width: 100%;
 }
 
+.container {
+  padding: 20px;
+}
+
+.card-body {
+  background-color: black;
+}
+
 /**
 nav ul {
   display: flex;
