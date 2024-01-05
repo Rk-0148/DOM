@@ -55,7 +55,7 @@ home.style.color = "red";
 
 let cardtext = document.getElementsByClassName("card-text");
 cardtext[0].style.color = "pink",
-cardtext[0].style.background = "black";
+  cardtext[0].style.background = "black";
 cardtext[1].style.color = "white";
 cardtext[1].style.background = "black";
 cardtext[2].style.color = "yellow";
@@ -74,4 +74,10 @@ document.querySelector(".this").style.background = "yellow";
 console.log(document.getElementsByTagName("a"));
 console.log(document.querySelector(".card").getElementsByTagName("a"));
 console.log(document.getElementsByName("search"));
+
+document.getElementById("Home").innerHTML = "HOME";
+
+function changeText(id) {
+  id.innerHTML = "Welcome to the world of JavaScript";
+}
 
