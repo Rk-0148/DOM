@@ -81,3 +81,4 @@ function changeText(id) {
   id.innerHTML = "Welcome to the world of JavaScript";
 }
 
+// second.innerHtml = "<i>Hey I am italic</i>";
